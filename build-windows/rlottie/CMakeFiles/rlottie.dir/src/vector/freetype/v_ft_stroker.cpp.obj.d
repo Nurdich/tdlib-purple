@@ -1,0 +1,29 @@
+rlottie/CMakeFiles/rlottie.dir/src/vector/freetype/v_ft_stroker.cpp.obj: \
+ /mnt/persist/workspace/rlottie/src/vector/freetype/v_ft_stroker.cpp \
+ /mnt/persist/workspace/rlottie/src/vector/freetype/v_ft_stroker.h \
+ /mnt/persist/workspace/rlottie/src/vector/freetype/v_ft_raster.h \
+ /mnt/persist/workspace/rlottie/src/vector/freetype/v_ft_types.h \
+ /usr/share/mingw-w64/include/assert.h \
+ /usr/share/mingw-w64/include/crtdefs.h \
+ /usr/share/mingw-w64/include/corecrt.h \
+ /usr/share/mingw-w64/include/_mingw.h \
+ /usr/share/mingw-w64/include/_mingw_mac.h \
+ /usr/share/mingw-w64/include/_mingw_secapi.h \
+ /usr/share/mingw-w64/include/vadefs.h \
+ /usr/share/mingw-w64/include/sdks/_mingw_ddk.h \
+ /usr/lib/gcc/i686-w64-mingw32/10-posix/include/c++/stdlib.h \
+ /usr/lib/gcc/i686-w64-mingw32/10-posix/include/c++/cstdlib \
+ /usr/lib/gcc/i686-w64-mingw32/10-posix/include/c++/i686-w64-mingw32/bits/c++config.h \
+ /usr/lib/gcc/i686-w64-mingw32/10-posix/include/c++/i686-w64-mingw32/bits/os_defines.h \
+ /usr/lib/gcc/i686-w64-mingw32/10-posix/include/c++/i686-w64-mingw32/bits/cpu_defines.h \
+ /usr/share/mingw-w64/include/stdlib.h \
+ /usr/share/mingw-w64/include/corecrt_wstdlib.h \
+ /usr/lib/gcc/i686-w64-mingw32/10-posix/include-fixed/limits.h \
+ /usr/lib/gcc/i686-w64-mingw32/10-posix/include-fixed/syslimits.h \
+ /usr/share/mingw-w64/include/limits.h \
+ /usr/share/mingw-w64/include/sec_api/stdlib_s.h \
+ /usr/share/mingw-w64/include/malloc.h \
+ /usr/lib/gcc/i686-w64-mingw32/10-posix/include/c++/bits/std_abs.h \
+ /usr/share/mingw-w64/include/string.h \
+ /usr/share/mingw-w64/include/sec_api/string_s.h \
+ /mnt/persist/workspace/rlottie/src/vector/freetype/v_ft_math.h

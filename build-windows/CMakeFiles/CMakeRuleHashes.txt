@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+2ac44700f33ab91a328147cc41fa28b1 CMakeFiles/nsis
+50dd2152350e464c0ffa9dc3565c7927 lang.nsi
+b770aee2c39ac16cfcdd595e46ba242b libtelegram-tdlib-stripped.dll
+40ebb2d2db50c9a7067533bc49cf27b5 test/CMakeFiles/run-tests

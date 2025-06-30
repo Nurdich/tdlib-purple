@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/telegram-tdlib.dir/objects.a
+/usr/bin/i686-w64-mingw32-ar qc CMakeFiles/telegram-tdlib.dir/objects.a @CMakeFiles/telegram-tdlib.dir/objects1.rsp
+/usr/bin/i686-w64-mingw32-g++ -O3 -DNDEBUG -Wl,--version-script=/mnt/persist/workspace/ld_version_script -static-libgcc -static-libstdc++ -L/mnt/persist/deps/win32-dev/gtk_2_0-2.14/lib -L/mnt/persist/deps/pidgin-2.13.0-win32bin -shared -o libtelegram-tdlib.dll -Wl,--out-implib,libtelegram-tdlib.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/telegram-tdlib.dir/objects.a -Wl,--no-whole-archive @CMakeFiles/telegram-tdlib.dir/linklibs.rsp

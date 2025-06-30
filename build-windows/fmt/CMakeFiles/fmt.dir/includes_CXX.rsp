@@ -1,0 +1,1 @@
+-I/mnt/persist/deps/pidgin-2.13.0/libpurple -I/mnt/persist/deps/win32-dev/gtk_2_0-2.14/include/glib-2.0 -I/mnt/persist/deps/win32-dev/gtk_2_0-2.14/lib/glib-2.0/include -I/mnt/persist/workspace/build-windows -I/mnt/persist/workspace/fmt/include
