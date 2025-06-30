@@ -6,11 +6,11 @@ project(tdlib-purple VERSION ${VERSION} LANGUAGES CXX)
 
 find_package(Td REQUIRED)
 math(EXPR TDLIB_VERSION_NUMBER "10000*${Td_VERSION_MAJOR} + 100*${Td_VERSION_MINOR} + ${Td_VERSION_PATCH}")
-if (NOT(${TDLIB_VERSION_NUMBER} EQUAL 10709))
+if (NOT(${TDLIB_VERSION_NUMBER} EQUAL 10800))
     # Error message must begin with "tdlib version" for a grep command from readme
-    message(FATAL_ERROR "tdlib version 1.7.9 is required
+    message(FATAL_ERROR "tdlib version 1.8.0 is required
 (version found: ${Td_VERSION_MAJOR}.${Td_VERSION_MINOR}.${Td_VERSION_PATCH})")
-endif (NOT(${TDLIB_VERSION_NUMBER} EQUAL 10709))
+endif (NOT(${TDLIB_VERSION_NUMBER} EQUAL 10800))
 
 set(NoPkgConfig FALSE CACHE BOOL "Do not use pkg-config")
 set(NoWebp FALSE CACHE BOOL "Do not decode webp stickers")

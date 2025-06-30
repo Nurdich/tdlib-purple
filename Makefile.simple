@@ -1,0 +1,59 @@
+# 简化的 Makefile 用于快速编译
+
+.PHONY: all linux windows clean install help
+
+# 默认目标
+all: linux windows
+
+# 编译 Linux 版本
+linux:
+	@echo "编译 Linux 版本..."
+	@./build-scripts/build-linux.sh
+
+# 编译 Windows 版本  
+windows:
+	@echo "编译 Windows 版本..."
+	@./build-scripts/build-windows.sh
+
+# 安装 TDLib
+tdlib:
+	@echo "安装 TDLib..."
+	@./build-scripts/install-tdlib.sh
+
+# 一键编译
+build-all:
+	@echo "一键编译所有版本..."
+	@./build-scripts/build-all.sh
+
+# 清理构建文件
+clean:
+	@echo "清理构建文件..."
+	@rm -rf build-linux build-windows
+	@echo "清理完成"
+
+# 安装 Linux 版本
+install: linux
+	@echo "安装 Linux 版本..."
+	@cd build-linux && sudo make install
+	@echo "安装完成"
+
+# 显示帮助
+help:
+	@echo "可用目标:"
+	@echo "  all        - 编译 Linux 和 Windows 版本"
+	@echo "  linux      - 只编译 Linux 版本"
+	@echo "  windows    - 只编译 Windows 版本"
+	@echo "  tdlib      - 安装 TDLib 依赖"
+	@echo "  build-all  - 一键编译 (包括安装 TDLib)"
+	@echo "  clean      - 清理构建文件"
+	@echo "  install    - 编译并安装 Linux 版本"
+	@echo "  help       - 显示此帮助"
+	@echo ""
+	@echo "环境变量:"
+	@echo "  API_ID     - 自定义 Telegram API ID"
+	@echo "  API_HASH   - 自定义 Telegram API Hash"
+	@echo ""
+	@echo "示例:"
+	@echo "  make linux"
+	@echo "  make API_ID=123456 API_HASH=abcdef build-all"
+	@echo "  make install"
